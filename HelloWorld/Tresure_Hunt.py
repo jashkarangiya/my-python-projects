@@ -46,6 +46,6 @@ if answer1_as_lower =="left":
 elif answer1_as_lower == "right":
     print("You fell into a hole. Game Over.")
 
-print("\nThank you for playing! You can play again.")
+print("\nThank you for playing! You can play again.")   
 
 
