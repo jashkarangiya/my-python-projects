@@ -87,5 +87,76 @@ if selectToLower == 'scissors' and computerSelected == 'paper':
 
     print("You won!!")
 
+if selectToLower == 'scissors' and computerSelected == 'rock':
 
-print("The computer selected: ")
+    print("""
+    You selected scissors:
+        _______
+    ---'   ____)____
+              ______)
+           __________)
+          (____)
+    ---.__(___)
+    """)
+
+    print(""" 
+     Computer selected rock:
+         _______
+     ---'   ____)
+           (_____)
+           (_____)
+           (____)
+     ---.__(___)
+     """)
+    print("Computer won!!")
+
+if selectToLower == 'paper' and computerSelected == 'rock':
+
+    print("""
+    You selected paper:
+         _______
+    ---'    ____)____
+               ______)
+              _______)
+             _______)
+    ---.__________)
+    """)
+
+    print(""" 
+     Computer selected rock:
+         _______
+     ---'   ____)
+           (_____)
+           (_____)
+           (____)
+     ---.__(___)
+     """)
+    print("You won!!")
+
+if selectToLower == 'paper' and computerSelected == 'scissors':
+
+
+    print("""
+    You selected paper:
+         _______
+    ---'    ____)____
+               ______)
+              _______)
+             _______)
+    ---.__________)
+    """)
+
+    print("""
+    Computer selected scissors:
+        _______
+    ---'   ____)____
+              ______)
+           __________)
+          (____)
+    ---.__(___)
+    """)
+
+    print("You won!!")
+
+
+
