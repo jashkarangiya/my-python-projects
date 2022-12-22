@@ -156,7 +156,14 @@ if selectToLower == 'paper' and computerSelected == 'scissors':
     ---.__(___)
     """)
 
-    print("You won!!")
+    print("Computer won!!")
+
+if selectToLower == computerSelected:
+    print("Draw")
+
+
+
+    hjvkbkhlhbbjk
 
 
 
