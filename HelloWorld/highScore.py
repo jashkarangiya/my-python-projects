@@ -18,13 +18,13 @@ for i in range(n):
 
 print(f"The highest score in the class is: {student_scores[-1]}")
 
-Or we can go with:
-
-# student_scores =[100, 89, 82, 85, 69, 10]
+# Or we can go with:
 #
-#
-# highest_scores = 0
-# for scores in student_scores:
-#     if scores > highest_scores:
-#         highest_scores =scores
-# print(highest_scores)
+# # student_scores =[100, 89, 82, 85, 69, 10]
+# #
+# #
+# # highest_scores = 0
+# # for scores in student_scores:
+# #     if scores > highest_scores:
+# #         highest_scores =scores
+# # print(highest_scores)
