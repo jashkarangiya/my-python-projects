@@ -4,5 +4,4 @@ arrayOfAges = input('Enter ages of five people: ').split()
 
 arr_of_ages = [int(item) for item in arrayOfAges]
 
-
-    print(arr_of_ages)
+print(arr_of_ages)
