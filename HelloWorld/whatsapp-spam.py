@@ -1,5 +1,5 @@
 import pyautogui, time
-time.sleep(20)
+time.sleep(10)
 
 i = 0
 
@@ -8,6 +8,3 @@ for i in range(10):
     for words in read:
         pyautogui.typewrite(words)
         pyautogui.press("enter")
-
-
-

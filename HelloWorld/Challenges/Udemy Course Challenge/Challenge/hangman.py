@@ -1,9 +1,42 @@
 #Step 1
+import random
+word_list = ["camel", "hello", "apple"]
 
-word_list = ["aardvark", "baboon", "camel", "hello", ""]
+wordSelected = random.choice(word_list).lower()
+# print(wordSelected)
 
-#TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 
-#TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
+# print(letterGuessed)
+list = []
+for letters in wordSelected:
+    i = 0
+    list.append("_")
+    letterGuessed = input("Enter a letter: ").lower()
 
-#TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
+    if letters == letterGuessed:
+        list[i] = letters
+    else:
+        print("noob")
+    i += 1
+
+print(list)
+
+
+
+# for letters in wordSelected:
+#     if letters == letterGuessed:
+#         print("True")
+#     else:
+#         print("False")
+
+
+
+
+
+
+
+
+
+
+
+
