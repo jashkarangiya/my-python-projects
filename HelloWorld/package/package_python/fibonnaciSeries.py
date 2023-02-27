@@ -1,2 +1,6 @@
-def fibonnaci(num1):
-    print("You are using Fibonnaci Series.")
+print("")
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
