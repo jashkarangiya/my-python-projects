@@ -19,7 +19,7 @@ def find_first(s1, s2):
         print(s1.name, "will be first")
 
 
-s1 = Student("Jash Karangiya", 80)
+s1 = Student("Mikasa Ackerman", 80)
 s2 = Student("Levi Ackerman", 90)
 find_first(s1, s2)
 print("\nAuthor: Jash Karangiya\nID NO. 21DCE042")
