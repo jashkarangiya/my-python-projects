@@ -19,10 +19,12 @@ mycursor = conn.cursor()
 
 
 # Update query:
-# sql = "UPDATE employee SET emp_name = 'Levi' WHERE emp_id = 69"
+sql = "UPDATE employee SET emp_name = 'Levi' WHERE emp_id = 69"
 
 # Delete query:
 # sql = "DELETE FROM employee where emp_id=69"
+
+
 
 mycursor.execute(sql)
 
