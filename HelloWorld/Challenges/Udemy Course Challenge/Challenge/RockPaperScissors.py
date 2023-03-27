@@ -163,7 +163,3 @@ if selectToLower == computerSelected:
 
 
 
-    hjvkbkhlhbbjk
-
-
-
