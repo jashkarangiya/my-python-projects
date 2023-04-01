@@ -11,3 +11,6 @@ def divisor(number):
 number = int(input("Enter a number: "))
 print(f"The divisors of {number} are: ")
 divisor(number)
+print("\nID: 21DCE042\nAuthor: Jash Karnagiya")
+
+# End of the code

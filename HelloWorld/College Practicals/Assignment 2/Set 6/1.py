@@ -14,3 +14,4 @@ if len(result) > 2:
     print("The given number is not prime!!")
 else:
     print("The given number is prime")
+print("ID No: 21DCE042\nAuthor: Karangiya Jash Ramde")

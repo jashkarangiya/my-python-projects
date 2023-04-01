@@ -17,3 +17,6 @@ if result == 1:
     print(f"{number} is odd.")
 else:
     print(f"{number} is even.")
+print("\nID: 21DCE042\nAuthor: Jash Karnagiya")
+
+# End of the code

@@ -4,13 +4,20 @@
 # sequence is a sequence of numbers where the next number in the sequence is the sum of the
 # previous two numbers in the sequence. The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …)
 
-def fibonacciSeries(number):
-    for i in range(2, number-2):
-        fibonacciSeries = []
-        for fibonacciSeries[0] in fibonacciSeries:
-            fibonacciSeries[0] = 0
-            fibonacciSeries[1] = 1
-        fibonacciSeries.append(fibonacciSeries[i-2]+fibonacciSeries[i-1])
-        print(fibonacciSeries)
-    return fibonacciSeries
-fibonacciSeries(5)
+def fibonacci():
+    num = int(input("Please enter how many numbers would you like in your Fibonacci sequence: "))
+    i = 1
+    if num == 0:
+        fib = []
+    elif num == 1:
+        fib = [1]
+    elif num == 2:
+        fib = [1,1]
+    elif num > 2:
+        fib = [1,1]
+        while i < (num - 1):
+            fib.append(fib[i] + fib[i-1])
+            i += 1
+    return fib
+print (fibonacci())
+print("\nID: 21DCE042\nAuthor: Jash Karangiya")

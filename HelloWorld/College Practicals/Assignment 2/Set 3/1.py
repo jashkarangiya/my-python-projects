@@ -18,3 +18,7 @@ else:
         if number in list1:
             list3.append(number)
 print(list3)
+
+print("\nID: 21DCE042\nAuthor: Jash Karnagiya")
+
+# End of the code

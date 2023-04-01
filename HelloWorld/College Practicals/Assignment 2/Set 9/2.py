@@ -29,7 +29,8 @@ number = int(input("Enter a number to check: "))
 result = numberPresent(listt, number)
 
 if result == True:
-    print("The Number is present in the list.")
+    print(f"The {number} is present in the list.")
 else:
     print("The Number is not present in the list.")
+print("\nID No: 21DCE042\nAuthor: Karangiya Jash Ramde")
 

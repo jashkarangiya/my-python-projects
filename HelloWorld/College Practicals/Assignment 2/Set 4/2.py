@@ -244,7 +244,7 @@ if selectToLower == 'scissors' and computerSelected =='scissors':
     ---.__________)
     """)
 
-print("Draw")
+    print("Draw")
 
 
 

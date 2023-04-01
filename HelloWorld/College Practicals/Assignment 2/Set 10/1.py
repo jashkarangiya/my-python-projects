@@ -10,3 +10,4 @@ name_counts = Counter(names)
 
 for name, count in name_counts.items():
     print(f"{name}: {count}")
+print("\nID No: 21DCE042\nAuthor: Karangiya Jash Ramde")
